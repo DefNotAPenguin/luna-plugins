@@ -1,15 +1,15 @@
 {
-	"name": "@aztup/luna-plugins",
+	"name": "@DefNotAPenguin/luna-plugins",
 	"description": "Plugins for Tidal Luna",
 	"author": {
-		"name": "Aztup",
-		"url": "https://github.com/Aztup",
-		"avatarUrl": "https://avatars.githubusercontent.com/u/55710232"
+		"name": "DefNotAPenguin",
+		"url": "https://github.com/DefNotAPenguin",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/50396151"
 	},
-	"homepage": "https://github.com/Aztup/luna-plugins",
+	"homepage": "https://github.com/DefNotAPenguin/luna-plugins",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Aztup/luna-plugins.git"
+		"url": "https://github.com/DefNotAPenguin/luna-plugins.git"
 	},
 	"type": "module",
 	"scripts": {
