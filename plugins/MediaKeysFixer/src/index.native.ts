@@ -13,7 +13,7 @@ const actions = [
 
 for (const [accelerator, method] of actions) {
     globalShortcut.register(accelerator, () => {
-        luna.tidalWindow?.webContents.send('TidalFixer:callMethod', method);
+        luna.sendtoRender('TidalFixer:callMethod', method);
     });
 
     unloads.add(() => globalShortcut.unregister(accelerator))
