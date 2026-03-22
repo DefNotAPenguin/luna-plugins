@@ -1,6 +1,6 @@
 import { ipcRenderer, PlayState, redux } from "@luna/lib";
 import type { LunaUnload } from '@luna/core';
-import {globalShortcut} from 'electron';
+//import {React} from 'react';
 
 export const unloads = new Set<LunaUnload>();
 export type PlayStates = 'next' | 'previous' | 'pause' | 'playPause' | 'play';
