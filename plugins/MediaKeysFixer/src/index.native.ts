@@ -13,7 +13,7 @@ const actions = [
 
 for (const [accelerator, method] of actions) {
     globalShortcut.register(accelerator, () => {
-        luna.sendtoRender('TidalFixer:callMethod', method);
+        luna.sendtoRender('MediaKeysFixer:callMethod', method);
     });
 
     unloads.add(() => globalShortcut.unregister(accelerator))
