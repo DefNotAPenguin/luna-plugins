@@ -16,6 +16,8 @@ jobs:
   name: Release latest on GitHub
   needs: Build
   runs-on: ubuntu-latest
+  permissions:
+   contents: write
 
   steps:
    - name: Download All Artifacts
